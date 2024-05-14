@@ -1,0 +1,1484 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* attendance_wags
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-11 10:11+0000\n"
+"PO-Revision-Date: 2024-03-11 10:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__shift_change__state__manager_approve
+msgid " Approved By Manager"
+msgstr "تمت الموافقة عليها من قبل المدير"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__holidays_attendance__stages__draft
+msgid " Draft"
+msgstr "مسودة"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__absent
+#: model:ir.model.fields.selection,name:attendance_wags.selection__daily_attendance_logs_wags__attendance_status__absent
+msgid "Absent"
+msgstr "غائب"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__message_needaction
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__message_needaction
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__message_needaction
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__message_needaction
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__message_needaction
+msgid "Action Needed"
+msgstr "الإجراء المطلوب"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__active
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__active
+#: model:ir.model.fields.selection,name:attendance_wags.selection__machine_info_tree__status__yes
+msgid "Active"
+msgstr "نشط"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__activity_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__activity_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__activity_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__activity_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__activity_ids
+msgid "Activities"
+msgstr "الأنشطة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__activity_exception_decoration
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__activity_exception_decoration
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__activity_exception_decoration
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__activity_exception_decoration
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "تزيين استثناء النشاط"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__activity_state
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__activity_state
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__activity_state
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__activity_state
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__activity_type_icon
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__activity_type_icon
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__activity_type_icon
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__activity_type_icon
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "رمز نوع النشاط"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__actual_attendance_id
+msgid "Actual Attendance"
+msgstr "الحضور الفعلي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__checkin
+msgid "Actual Check In"
+msgstr "تسجيل الدخول الفعلي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__checkout
+msgid "Actual Check Out"
+msgstr "تسجيل الخروج الفعلي"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_raw_attendance_form
+msgid "Admin Details"
+msgstr "تفاصيل الإدارة"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__annual_leaves
+msgid "Annual Leaves"
+msgstr "الإجازات السنوية"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_raw_attendance_form
+msgid "Approve"
+msgstr "الموافقة"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__raw_attendance_wags__state__approved
+msgid "Approved"
+msgstr "تمت الموافقة عليه"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__message_attachment_count
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__message_attachment_count
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__message_attachment_count
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__message_attachment_count
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_date_wags__date
+#: model:ir.model.fields,field_description:attendance_wags.field_dates_attendance__date
+msgid "Attendance Date"
+msgstr "تاريخ الحضور"
+
+#. module: attendance_wags
+#: model:ir.actions.act_window,name:attendance_wags.action_dates_attendance
+#: model:ir.ui.menu,name:attendance_wags.dates_attendance_menu_item
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_dates_attendance_form
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_dates_attendance_tree
+msgid "Attendance Dates"
+msgstr "تواريخ الحضور"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_raw_attendance_form
+msgid "Attendance Details"
+msgstr "تفاصيل الحضور"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_holiday_attendance_form
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_holiday_attendance_tree
+msgid "Attendance Holidays"
+msgstr "إجازات الحضور"
+
+#. module: attendance_wags
+#: model:ir.actions.act_window,name:attendance_wags.action_shift_attendance_wags
+#: model:ir.actions.act_window,name:attendance_wags.action_shifts_attendance
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_attendance_shift_wags_form
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_attendance_shift_wags_search
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_attendance_shift_wags_tree
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_shift_attendance_form
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_shift_attendance_tree
+msgid "Attendance Shifts"
+msgstr "ورديات الحضور"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__attendance_status
+msgid "Attendance Status"
+msgstr "حالة الحضور"
+
+#. module: attendance_wags
+#: model:ir.ui.menu,name:attendance_wags.menu_hr_attendance_root_wags
+msgid "Attendances"
+msgstr "الحضور"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__cpl
+msgid "CPL"
+msgstr ""
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__half_cpl
+msgid "CPL HALF"
+msgstr "نصف CPL"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__casual_leaves
+msgid "Casual Leaves"
+msgstr "إجازات عارضة"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__raw_attendance_wags__state__change_request
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_raw_attendance_form
+msgid "Change Request"
+msgstr "طلب تغيير"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__checkin
+msgid "Check In"
+msgstr "تسجيل الدخول"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__checkout
+msgid "Check Out"
+msgstr "تسجيل الخروج"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__check_out_lavi_time
+msgid "Check Out Lavi Time"
+msgstr "وقت تسجيل الخروج Lavi"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__checkin
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_search
+msgid "Checkin"
+msgstr "تسجيل الدخول"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__checkin_dt
+msgid "Checkin DT"
+msgstr "تاريخ ووقت تسجيل الدخول"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_raw_attendance_form
+msgid "Checkin Details"
+msgstr "تفاصيل تسجيل الدخول"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__checkin_latitude
+msgid "Checkin Latitude"
+msgstr "خطوط العرض لتسجيل الدخول"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__checkin_longitude
+msgid "Checkin Longitude"
+msgstr "خطوط الطول لتسجيل الدخول"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__checkout
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_search
+msgid "Checkout"
+msgstr "تسجيل الخروج"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__checkout_dt
+msgid "Checkout DT"
+msgstr "تاريخ ووقت تسجيل الخروج"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_raw_attendance_form
+msgid "Checkout Details"
+msgstr "تفاصيل تسجيل الخروج"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__checkout_latitude
+msgid "Checkout Latitude"
+msgstr "خطوط العرض لتسجيل الخروج"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__checkout_longitude
+msgid "Checkout Longitude"
+msgstr "خطوط الطول للخروج"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__company_id
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_date_wags__company_id
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__company_id
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__company_id
+#: model:ir.model.fields,field_description:attendance_wags.field_dates_attendance__company_id
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__company_id
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_tree__company_id
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info__company_id
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__company_id
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__company_id
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__company_id
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__company_id
+msgid "Company"
+msgstr "الشركة"
+
+#. module: attendance_wags
+#: model:ir.ui.menu,name:attendance_wags.menu_daily_attendance_logs_wizard
+msgid "Create Daily Attendance Logs"
+msgstr "إنشاء سجلات الحضور اليومية"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wizard_form
+msgid "Create Daily Logs"
+msgstr "إنشاء السجلات اليومية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__create_uid
+msgid "Created By"
+msgstr "تم الإنشاء بواسطة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__create_date
+msgid "Created On"
+msgstr "تم الإنشاء في"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__create_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_date_wags__create_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__create_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__create_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wizard__create_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_dates_attendance__create_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__create_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_tree__create_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info__create_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__create_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__create_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__create_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_week_days_wags__create_uid
+msgid "Created by"
+msgstr "تم الإنشاء بواسطة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__create_date
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_date_wags__create_date
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__create_date
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__create_date
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wizard__create_date
+#: model:ir.model.fields,field_description:attendance_wags.field_dates_attendance__create_date
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__create_date
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_tree__create_date
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info__create_date
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__create_date
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__create_date
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__create_date
+#: model:ir.model.fields,field_description:attendance_wags.field_week_days_wags__create_date
+msgid "Created on"
+msgstr "تم الإنشاء في"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__daily_attendance_id
+msgid "Daily Attendance"
+msgstr "الحضور اليومي"
+
+#. module: attendance_wags
+#: model:ir.actions.act_window,name:attendance_wags.action_daily_attendance_logs
+#: model:ir.model,name:attendance_wags.model_daily_attendance_logs_wags
+#: model:ir.ui.menu,name:attendance_wags.menu_daily_attendance_logs
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_form
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_search
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_tree
+msgid "Daily Attendance Logs"
+msgstr "سجلات الحضور اليومية"
+
+#. module: attendance_wags
+#: model:ir.actions.act_window,name:attendance_wags.action_daily_attendance_logs_wizard
+#: model:ir.model,name:attendance_wags.model_daily_attendance_logs_wizard
+msgid "Daily Attendance Logs Wizard"
+msgstr "معالج سجلات الحضور اليومية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info__db
+msgid "Data Base"
+msgstr "قاعدة البيانات"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__date
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__date
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__date
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wizard__date
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_tree__date
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__date
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_attendance_shift_wags_search
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__date_wags
+msgid "DateTime"
+msgstr "تاريخ ووقت"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_tree__day
+#: model:ir.model.fields,field_description:attendance_wags.field_week_days_wags__name
+msgid "Day"
+msgstr "اليوم"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__days
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_holiday_attendance_form
+msgid "Days"
+msgstr "أيام"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__default_holiday
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_holiday_attendance_form
+msgid "Default Holiday"
+msgstr "العطلة الافتراضية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__defaultstatus
+msgid "Default Status"
+msgstr "الحالة الافتراضية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__department_id
+#: model_terms:ir.ui.view,arch_db:attendance_wags.raw_attendance_search_view
+msgid "Department"
+msgstr "القسم"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__description
+msgid "Description"
+msgstr "الوصف"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_date_wags__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wizard__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_dates_attendance__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_tree__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__display_name
+#: model:ir.model.fields,field_description:attendance_wags.field_week_days_wags__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__holidays_attendance__stages__done
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_holiday_attendance_form
+msgid "Done"
+msgstr "منتهي"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__shift_change__state__draft
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_holiday_attendance_form
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__daily_attendance_logs_wags__early__in
+msgid "Early In"
+msgstr "بداية مبكرة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__early
+msgid "Early In / Out"
+msgstr "بداية مبكرة / نهاية مبكرة"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__outtime__eout
+#: model:ir.model.fields.selection,name:attendance_wags.selection__daily_attendance_logs_wags__early__out
+msgid "Early Out"
+msgstr "نهاية مبكرة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__effective_end_date
+msgid "Effective End Date"
+msgstr "تاريخ النهاية الفعلي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__shift
+msgid "Effective Shift for the day"
+msgstr "الورديات الفعالة لليوم"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__effective_start_date
+msgid "Effective Start Date"
+msgstr "تاريخ البداية الفعلي"
+
+#. module: attendance_wags
+#: model:ir.model,name:attendance_wags.model_hr_employee_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__employee_id
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__employee_id
+#: model_terms:ir.ui.view,arch_db:attendance_wags.raw_attendance_search_view
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_search
+msgid "Employee"
+msgstr "الموظف"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__card_no
+msgid "Employee ID"
+msgstr "معرف الموظف"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__emp_code
+msgid "Employee Id"
+msgstr "معرف الموظف"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__employee_image_name
+msgid "Employee Image Name"
+msgstr "اسم صورة الموظف"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__employee_id
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__employee_id
+msgid "Employee Name"
+msgstr "اسم الموظف"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.raw_attendance_search_view
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_search
+msgid "Employees"
+msgstr "الموظفين"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__end_date_overtime
+msgid "End Date Overtime"
+msgstr "تاريخ الإضافي النهائي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__end_hours
+msgid "End Overtime"
+msgstr "انتهاء العمل الإضافي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__end_shift
+msgid "End Shift Time"
+msgstr "وقت نهاية الورديات"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__final_checkin
+msgid "Final Check In"
+msgstr "التسجيل النهائي داخل"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__final_checkout
+msgid "Final Check Out"
+msgstr "التسجيل النهائي خارج"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__message_follower_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__message_follower_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__message_follower_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__message_follower_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__message_partner_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__message_partner_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__message_partner_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__message_partner_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (شركاء)"
+
+#. module: attendance_wags
+#: model:ir.model.fields,help:attendance_wags.field_attendance_shift_wags__activity_type_icon
+#: model:ir.model.fields,help:attendance_wags.field_daily_attendance_logs_wags__activity_type_icon
+#: model:ir.model.fields,help:attendance_wags.field_raw_attendance_wags__activity_type_icon
+#: model:ir.model.fields,help:attendance_wags.field_shift_change__activity_type_icon
+#: model:ir.model.fields,help:attendance_wags.field_shifts_attendance__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "رمز الخط الرهيب مثل fa-tasks"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__from_date
+msgid "From Date"
+msgstr "من تاريخ"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__defaultstatus__gazetted_holiday
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__gazetted_holiday
+msgid "Gazetted Holiday"
+msgstr "عطلة رسمية"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_holiday_attendance_form
+msgid "Get Holidays"
+msgstr "الحصول على العطلات"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_holiday_attendance_form
+msgid "Get Sundays"
+msgstr "الحصول على أيام الأحد"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.raw_attendance_search_view
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_attendance_shift_wags_search
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_search
+msgid "Group By"
+msgstr "تجميع حسب"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__half_leave
+#: model:ir.model.fields.selection,name:attendance_wags.selection__daily_attendance_logs_wags__attendance_status__half_leave
+msgid "Half Leave"
+msgstr "إجازة جزئية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__has_message
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__has_message
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__has_message
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__has_message
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__defaultstatus__holiday
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__holiday
+#: model:ir.model.fields.selection,name:attendance_wags.selection__daily_attendance_logs_wags__attendance_status__holiday
+msgid "Holiday"
+msgstr "عطلة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_hr_employee_wags__holidays_attendace
+msgid "Holiday Attendance"
+msgstr "حضور العطلة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__holiday_ref
+msgid "Holiday Ref"
+msgstr "مرجع العطلة"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_hr_employee_wags_inherited
+msgid "Holidays"
+msgstr "العطلات"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_tree__holidays_attendance_id
+msgid "Holidays Attendance"
+msgstr "حضور العطلات"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__holidays_tree
+msgid "Holidays Tree"
+msgstr "شجرة العطلات"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__id
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_date_wags__id
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__id
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__id
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wizard__id
+#: model:ir.model.fields,field_description:attendance_wags.field_dates_attendance__id
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__id
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_tree__id
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info__id
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__id
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__id
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__id
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__id
+#: model:ir.model.fields,field_description:attendance_wags.field_week_days_wags__id
+msgid "ID"
+msgstr "معرّف"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__ip
+msgid "IP"
+msgstr ""
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__activity_exception_icon
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__activity_exception_icon
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__activity_exception_icon
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__activity_exception_icon
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__activity_exception_icon
+msgid "Icon"
+msgstr "الرمز"
+
+#. module: attendance_wags
+#: model:ir.model.fields,help:attendance_wags.field_attendance_shift_wags__activity_exception_icon
+#: model:ir.model.fields,help:attendance_wags.field_daily_attendance_logs_wags__activity_exception_icon
+#: model:ir.model.fields,help:attendance_wags.field_raw_attendance_wags__activity_exception_icon
+#: model:ir.model.fields,help:attendance_wags.field_shift_change__activity_exception_icon
+#: model:ir.model.fields,help:attendance_wags.field_shifts_attendance__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "رمز يشير إلى نشاط استثنائي."
+
+#. module: attendance_wags
+#: model:ir.model.fields,help:attendance_wags.field_attendance_shift_wags__message_needaction
+#: model:ir.model.fields,help:attendance_wags.field_daily_attendance_logs_wags__message_needaction
+#: model:ir.model.fields,help:attendance_wags.field_raw_attendance_wags__message_needaction
+#: model:ir.model.fields,help:attendance_wags.field_shift_change__message_needaction
+#: model:ir.model.fields,help:attendance_wags.field_shifts_attendance__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم التحقق، فإن الرسائل الجديدة تتطلب انتباهك."
+
+#. module: attendance_wags
+#: model:ir.model.fields,help:attendance_wags.field_attendance_shift_wags__message_has_error
+#: model:ir.model.fields,help:attendance_wags.field_attendance_shift_wags__message_has_sms_error
+#: model:ir.model.fields,help:attendance_wags.field_daily_attendance_logs_wags__message_has_error
+#: model:ir.model.fields,help:attendance_wags.field_daily_attendance_logs_wags__message_has_sms_error
+#: model:ir.model.fields,help:attendance_wags.field_raw_attendance_wags__message_has_error
+#: model:ir.model.fields,help:attendance_wags.field_raw_attendance_wags__message_has_sms_error
+#: model:ir.model.fields,help:attendance_wags.field_shift_change__message_has_error
+#: model:ir.model.fields,help:attendance_wags.field_shift_change__message_has_sms_error
+#: model:ir.model.fields,help:attendance_wags.field_shifts_attendance__message_has_error
+#: model:ir.model.fields,help:attendance_wags.field_shifts_attendance__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم التحقق، فبعض الرسائل بها خطأ في التسليم."
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__employee_image
+msgid "Image"
+msgstr "الصورة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__intime
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__intime
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__intime
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_attendance_shift_wags_form
+msgid "In Time"
+msgstr "وقت البدء"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__machine_info_tree__status__no
+msgid "InActive"
+msgstr "غير فعال"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__is_8_hour_shift
+msgid "Is 8 Hour Shift ?"
+msgstr "هل هناك ورديات 8 ساعات؟"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__message_is_follower
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__message_is_follower
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__message_is_follower
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__message_is_follower
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__message_is_follower
+msgid "Is Follower"
+msgstr "هل هو متابع"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__is_management
+msgid "Is Management ?"
+msgstr "هل هو إدارة؟"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__is_overlap_shift
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__is_overlap_shift
+msgid "Is Overlap Shift"
+msgstr "هل هناك تداخل في الورديات؟"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__is_universal
+msgid "Is Universal ?"
+msgstr "هل هو شامل؟"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_date_wags____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wizard____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_dates_attendance____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_tree____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance____last_update
+#: model:ir.model.fields,field_description:attendance_wags.field_week_days_wags____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_date_wags__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wizard__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_dates_attendance__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_tree__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__write_uid
+#: model:ir.model.fields,field_description:attendance_wags.field_week_days_wags__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_date_wags__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wizard__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_dates_attendance__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_tree__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__write_date
+#: model:ir.model.fields,field_description:attendance_wags.field_week_days_wags__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__intime__lin
+#: model:ir.model.fields.selection,name:attendance_wags.selection__daily_attendance_logs_wags__late__in
+msgid "Late In"
+msgstr "تأخير داخل"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__late
+msgid "Late In / Out"
+msgstr "تأخير داخل / خارج"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__outtime__lout
+#: model:ir.model.fields.selection,name:attendance_wags.selection__daily_attendance_logs_wags__late__out
+msgid "Late Out"
+msgstr "تأخير خارج"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__lavy_in
+msgid "Lavi In"
+msgstr "لفي داخل"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__lavy_out
+msgid "Lavi Out"
+msgstr "لفي خارج"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__lavi_time
+msgid "Lavi Time"
+msgstr "وقت لفي"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__leave
+#: model:ir.model.fields.selection,name:attendance_wags.selection__daily_attendance_logs_wags__attendance_status__leave
+msgid "Leave"
+msgstr "إجازة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__leave_id
+msgid "Leave ID"
+msgstr "معرّف الإجازة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__leave_id_bool
+msgid "Leave ID Bool"
+msgstr "معرّف إجازة (قيمة منطقية)"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__des
+msgid "Location"
+msgstr "الموقع"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info__odooLogin
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__mac_address
+msgid "Mac Address"
+msgstr "عنوان MAC"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__machine_info_tree__machine_no__bio1
+msgid "Machine 1"
+msgstr "الجهاز 1"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__machine_info_tree__machine_no__bio2
+msgid "Machine 2"
+msgstr "الجهاز 2"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__machine_info_tree__machine_no__bio3
+msgid "Machine 3"
+msgstr "الجهاز 3"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__machine_info_tree__machine_no__bio4
+msgid "Machine 4"
+msgstr "الجهاز 4"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__machine_no
+msgid "Machine No"
+msgstr "رقم الجهاز"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__main
+msgid "Main"
+msgstr "رئيسي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__message_main_attachment_id
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__message_main_attachment_id
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__message_main_attachment_id
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__message_main_attachment_id
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "المرفق الرئيسي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__manager_id
+msgid "Manager"
+msgstr "المدير"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__marriage_leaves
+msgid "Marriage Leaves"
+msgstr "إجازات الزواج"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__message_has_error
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__message_has_error
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__message_has_error
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__message_has_error
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__message_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__message_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__message_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__message_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__my_activity_date_deadline
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__my_activity_date_deadline
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__my_activity_date_deadline
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__my_activity_date_deadline
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "موعد استحقاق نشاطي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__national_holiday
+#: model:ir.model.fields.selection,name:attendance_wags.selection__daily_attendance_logs_wags__attendance_status__national_holiday
+msgid "National Holiday"
+msgstr "إجازة وطنية"
+
+#. module: attendance_wags
+#: model:ir.actions.act_window,name:attendance_wags.action_holidays_attendance
+#: model:ir.ui.menu,name:attendance_wags.holidays_attendance_menu_item
+msgid "National Holidays"
+msgstr "العطل الوطنية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__activity_date_deadline
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__activity_date_deadline
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__activity_date_deadline
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__activity_date_deadline
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "موعد استحقاق النشاط التالي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__activity_summary
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__activity_summary
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__activity_summary
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__activity_summary
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط التالي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__activity_type_id
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__activity_type_id
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__activity_type_id
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__activity_type_id
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__raw_attendance_wags__state__no_change
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_raw_attendance_form
+msgid "No Change"
+msgstr "لا تغيير"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_week_days_wags__no
+msgid "Number"
+msgstr "الرقم"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__message_needaction_counter
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__message_needaction_counter
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__message_needaction_counter
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__message_needaction_counter
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__message_has_error_counter
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__message_has_error_counter
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__message_has_error_counter
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__message_has_error_counter
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: attendance_wags
+#: model:ir.model.fields,help:attendance_wags.field_attendance_shift_wags__message_needaction_counter
+#: model:ir.model.fields,help:attendance_wags.field_daily_attendance_logs_wags__message_needaction_counter
+#: model:ir.model.fields,help:attendance_wags.field_raw_attendance_wags__message_needaction_counter
+#: model:ir.model.fields,help:attendance_wags.field_shift_change__message_needaction_counter
+#: model:ir.model.fields,help:attendance_wags.field_shifts_attendance__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب إجراء"
+
+#. module: attendance_wags
+#: model:ir.model.fields,help:attendance_wags.field_attendance_shift_wags__message_has_error_counter
+#: model:ir.model.fields,help:attendance_wags.field_daily_attendance_logs_wags__message_has_error_counter
+#: model:ir.model.fields,help:attendance_wags.field_raw_attendance_wags__message_has_error_counter
+#: model:ir.model.fields,help:attendance_wags.field_shift_change__message_has_error_counter
+#: model:ir.model.fields,help:attendance_wags.field_shifts_attendance__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل ذات الخطأ في التسليم"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__outtime
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_attendance_shift_wags_form
+msgid "Out Time"
+msgstr "وقت الخروج"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__outtime
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__outtime
+msgid "Outtime"
+msgstr "وقت الخروج"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__overlapping
+msgid "Overlapping"
+msgstr "تداخل"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__overtime
+msgid "Overtime"
+msgstr "ساعات العمل الإضافية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__partner_id
+msgid "Partner"
+msgstr "الشريك"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__port
+msgid "Port"
+msgstr "المنفذ"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__present
+#: model:ir.model.fields.selection,name:attendance_wags.selection__daily_attendance_logs_wags__attendance_status__present
+msgid "Present"
+msgstr "حاضر"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__current_shift_id
+msgid "Previous Shift"
+msgstr "الورديات السابقة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info__product_ids
+msgid "Product"
+msgstr "المنتج"
+
+#. module: attendance_wags
+#: model:ir.actions.act_window,name:attendance_wags.action_raw_attendance
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__raw_attendance_ids
+#: model:ir.ui.menu,name:attendance_wags.raw_attendance_wags_main_menu
+#: model_terms:ir.ui.view,arch_db:attendance_wags.raw_attendance_search_view
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_form
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_raw_attendance_form
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_raw_attendance_tree
+msgid "Punch Attendance"
+msgstr "الحضور بالبصمة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__raw_attendance_tree
+msgid "Raw Attendance Tree"
+msgstr "شجرة الحضور الخام"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__reason
+msgid "Reason"
+msgstr "السبب"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__rec_name
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__rec_name
+msgid "Rec Name"
+msgstr "اسم المسجل"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__rec_name
+msgid "Reference"
+msgstr "المرجع"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_raw_attendance_form
+msgid "Reject"
+msgstr "رفض"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__raw_attendance_wags__state__rejected
+msgid "Rejected"
+msgstr "مرفوض"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_tree__remarks
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__remarks
+msgid "Remarks"
+msgstr "ملاحظات"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_raw_attendance_form
+msgid "Remarks for requested checkin & checkout"
+msgstr "ملاحظات للتحقق والخروج المطلوبين"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__requested_checkin
+msgid "Requested Check In"
+msgstr "تحقق مطلوب في"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__requested_checkout
+msgid "Requested Check Out"
+msgstr "خروج مطلوب في"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__requested_shift_id
+msgid "Requested Shift"
+msgstr "الوردية المطلوبة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__activity_user_id
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__activity_user_id
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__activity_user_id
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__activity_user_id
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__message_has_sms_error
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__message_has_sms_error
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__message_has_sms_error
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__message_has_sms_error
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_hr_employee_wags__schedule
+msgid "Schedule"
+msgstr "الجدول الزمني"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__name
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__shift_id
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__shift_id
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__name
+msgid "Shift"
+msgstr "الوردية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__end_date
+msgid "Shift End Date"
+msgstr "تاريخ نهاية الوردية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__shift_half_houre
+msgid "Shift Half Houre"
+msgstr "نصف ساعة الوردية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__shift_hours
+msgid "Shift Hours"
+msgstr "ساعات الوردية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__shift_id
+msgid "Shift ID"
+msgstr "معرف الوردية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__shift_link
+msgid "Shift Link"
+msgstr "رابط الوردية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__shift_name
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__shift_name
+msgid "Shift Name"
+msgstr "اسم الوردية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__start_date
+msgid "Shift Start Date"
+msgstr "تاريخ بدء الوردية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_hr_employee_wags__shift_ids
+#: model:ir.ui.menu,name:attendance_wags.menu_shift_attendance_wags
+msgid "Shifts"
+msgstr "الورديات"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__short_leave
+msgid "Short leave"
+msgstr "إجازة قصيرة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__short_leave_adjusted_time
+msgid "Short leave Adjusted Time"
+msgstr "الوقت المعدل للإجازة القصيرة"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__sick_leaves
+msgid "Sick Leaves"
+msgstr "الإجازات الطبية"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__special_leave
+msgid "Special leave"
+msgstr "إجازة خاصة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__stages
+msgid "Stages"
+msgstr "المراحل"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__standard_working_hour
+msgid "Standard Working Hours"
+msgstr "ساعات العمل القياسية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__start_hours
+msgid "Start Overtime"
+msgstr "بدء العمل الإضافي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__start_shift
+msgid "Start Shift Time"
+msgstr "وقت بدء الوردية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__state
+msgid "State"
+msgstr "الحالة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__status
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__state
+#: model_terms:ir.ui.view,arch_db:attendance_wags.raw_attendance_search_view
+msgid "Status"
+msgstr "الحالة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__todaystatus
+msgid "Status Today"
+msgstr "الحالة اليوم"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info_tree__status_web
+msgid "Status Web"
+msgstr "حالة الويب"
+
+#. module: attendance_wags
+#: model:ir.model.fields,help:attendance_wags.field_attendance_shift_wags__activity_state
+#: model:ir.model.fields,help:attendance_wags.field_daily_attendance_logs_wags__activity_state
+#: model:ir.model.fields,help:attendance_wags.field_raw_attendance_wags__activity_state
+#: model:ir.model.fields,help:attendance_wags.field_shift_change__activity_state
+#: model:ir.model.fields,help:attendance_wags.field_shifts_attendance__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخر: تاريخ الاستحقاق قد مر بالفعل\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"مخطط: الأنشطة المستقبلية."
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__to_date
+msgid "To Date"
+msgstr "حتى التاريخ"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_search
+msgid "Today"
+msgstr "اليوم"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_search
+msgid "Today Date"
+msgstr "تاريخ اليوم"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__total_early_out_time
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__total_eraly_out_time
+msgid "Total Early Out Time"
+msgstr "إجمالي وقت الخروج المبكر"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__total_late_time
+msgid "Total Late Time"
+msgstr "إجمالي وقت التأخير"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__total_hours
+msgid "Total Overtime"
+msgstr "إجمالي ساعات العمل الإضافي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__total_time
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__total_time
+msgid "Total Time"
+msgstr "الوقت الإجمالي"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__total_late_in_time
+msgid "Total Total Late In Time"
+msgstr "إجمالي وقت التأخير داخل الوردية"
+
+#. module: attendance_wags
+#: model:ir.model.fields,help:attendance_wags.field_attendance_shift_wags__activity_exception_decoration
+#: model:ir.model.fields,help:attendance_wags.field_daily_attendance_logs_wags__activity_exception_decoration
+#: model:ir.model.fields,help:attendance_wags.field_raw_attendance_wags__activity_exception_decoration
+#: model:ir.model.fields,help:attendance_wags.field_shift_change__activity_exception_decoration
+#: model:ir.model.fields,help:attendance_wags.field_shifts_attendance__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع نشاط الاستثناء على السجل."
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_form
+msgid "Update Holiday"
+msgstr "تحديث العطلة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__user_id
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__user_id
+msgid "User"
+msgstr "المستخدم"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.raw_attendance_search_view
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_daily_attendance_logs_wags_search
+msgid "Users"
+msgstr "المستخدمون"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__holidays_attendance__stages__validated
+#: model:ir.model.fields.selection,name:attendance_wags.selection__shift_change__state__validate
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_holiday_attendance_form
+msgid "Validate"
+msgstr "تحقق"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__website_message_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wags__website_message_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_raw_attendance_wags__website_message_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_shift_change__website_message_ids
+#: model:ir.model.fields,field_description:attendance_wags.field_shifts_attendance__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع الإلكتروني"
+
+#. module: attendance_wags
+#: model:ir.model.fields,help:attendance_wags.field_attendance_shift_wags__website_message_ids
+#: model:ir.model.fields,help:attendance_wags.field_daily_attendance_logs_wags__website_message_ids
+#: model:ir.model.fields,help:attendance_wags.field_raw_attendance_wags__website_message_ids
+#: model:ir.model.fields,help:attendance_wags.field_shift_change__website_message_ids
+#: model:ir.model.fields,help:attendance_wags.field_shifts_attendance__website_message_ids
+msgid "Website communication history"
+msgstr "سجل الاتصال بالموقع الإلكتروني"
+
+#. module: attendance_wags
+#: model:ir.actions.act_window,name:attendance_wags.action_week_days
+#: model:ir.model,name:attendance_wags.model_week_days_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_week_days_form
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_week_days_tree
+msgid "Week Days"
+msgstr "أيام الأسبوع"
+
+#. module: attendance_wags
+#: model:ir.model.fields.selection,name:attendance_wags.selection__actual_attendance__todaystatus__work_from_home
+msgid "Work From Home"
+msgstr "العمل من المنزل"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_attendance_shift_wags__working_hours
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_attendance_shift_wags_search
+msgid "Working Hours"
+msgstr "ساعات العمل"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_daily_attendance_logs_wizard__year
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__year
+msgid "Year"
+msgstr "السنة"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_holidays_attendance__year_day
+msgid "Year Day"
+msgstr "يوم السنة"
+
+#. module: attendance_wags
+#: model:ir.model,name:attendance_wags.model_actual_attendance
+msgid "actual.attendance"
+msgstr "الحضور الفعلي"
+
+#. module: attendance_wags
+#: model:ir.model,name:attendance_wags.model_attendance_date_wags
+msgid "attendance.date.wags"
+msgstr "تاريخ الحضور"
+
+#. module: attendance_wags
+#: model:ir.model,name:attendance_wags.model_attendance_shift_wags
+msgid "attendance.shift.wags"
+msgstr "الورديات"
+
+#. module: attendance_wags
+#: model:ir.model,name:attendance_wags.model_dates_attendance
+msgid "dates.attendance"
+msgstr "التواريخ"
+
+#. module: attendance_wags
+#: model_terms:ir.ui.view,arch_db:attendance_wags.view_holiday_attendance_form
+msgid "e.g"
+msgstr "على سبيل المثال"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_actual_attendance__half_day_deduction
+msgid "half_day_deduction"
+msgstr "خصم نصف يوم"
+
+#. module: attendance_wags
+#: model:ir.model,name:attendance_wags.model_holidays_attendance
+msgid "holidays.attendance"
+msgstr "العطلات"
+
+#. module: attendance_wags
+#: model:ir.model,name:attendance_wags.model_holidays_tree
+msgid "holidays.tree"
+msgstr "شجرة العطلات"
+
+#. module: attendance_wags
+#: model:ir.model,name:attendance_wags.model_machine_info
+msgid "machine.info"
+msgstr "معلومات الجهاز"
+
+#. module: attendance_wags
+#: model:ir.model,name:attendance_wags.model_machine_info_tree
+msgid "machine.info.tree"
+msgstr "شجرة معلومات الجهاز"
+
+#. module: attendance_wags
+#: model:ir.model.fields,field_description:attendance_wags.field_machine_info__odooPasswd
+msgid "password"
+msgstr "كلمة المرور"
+
+#. module: attendance_wags
+#: model:ir.model,name:attendance_wags.model_raw_attendance_wags
+msgid "raw.attendance.wags"
+msgstr ""
+
+#. module: attendance_wags
+#: model:ir.model,name:attendance_wags.model_shift_change
+msgid "shift.change"
+msgstr ""
+
+#. module: attendance_wags
+#: model:ir.model,name:attendance_wags.model_shifts_attendance
+msgid "shifts.attendance"
+msgstr ""

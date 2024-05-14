@@ -1,0 +1,16 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+admin_access_holidays_tree,holidays.tree,model_holidays_tree,base_access_rights.admin_non_technical,1,1,1,1
+admin_shifts_attendance,shifts.attendance,model_shifts_attendance,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_shift_change,shift.change,model_shift_change,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_shifts_attendance,shifts.attendance,model_shifts_attendance,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_actual_attendance,actual.attendance,model_actual_attendance,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_dates_attendance,dates.attendance,model_dates_attendance,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_raw_attendance_wags,raw.attendance.wags,model_raw_attendance_wags,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_daily_attendance_logs_wags,daily.attendance.logs.wags,model_daily_attendance_logs_wags,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_attendance_date_wags,attendance.date.wags,model_attendance_date_wags,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_attendance_shift_wags,attendance.shift.wags,model_attendance_shift_wags,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_holidays_attendance,holidays.attendance,model_holidays_attendance,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_machine_info,machine.info,model_machine_info,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_machine_info_tree,machine.info.tree,model_machine_info_tree,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_week_days_wags,week.days.wags,model_week_days_wags,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_daily_attendance_logs_wizard,daily.attendance.logs.wizard,model_daily_attendance_logs_wizard,base_access_rights.admin_non_technical,1,1,1,1

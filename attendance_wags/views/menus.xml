@@ -1,0 +1,64 @@
+<odoo>
+    <data>
+
+        <record model="ir.actions.act_window" id="action_daily_attendance_logs">
+            <field name="name">Daily Attendance Logs</field>
+            <field name="res_model">daily.attendance.logs.wags</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{'search_default_filter_today':1}</field>
+        </record>
+
+         <record model="ir.actions.act_window" id="action_raw_attendance">
+            <field name="name">Punch Attendance</field>
+            <field name="res_model">raw.attendance.wags</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+            <field name="view_ids" eval="[(5, 0, 0),
+            (0, 0, {'view_mode': 'tree', 'view_id': ref('view_raw_attendance_tree')}),
+            (0, 0, {'view_mode': 'form', 'view_id': ref('view_raw_attendance_form')})]"/>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_shift_attendance_wags">
+            <field name="name">Attendance Shifts</field>
+            <field name="res_model">attendance.shift.wags</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+        </record>
+
+        <!-- <record model="ir.actions.act_window" id="action_attendance_date_wags">
+            <field name="name">Attendance Dates</field>
+            <field name="res_model">attendance.date.wags</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+        </record> -->
+
+        <record id="action_daily_attendance_logs_wizard" model="ir.actions.act_window">
+            <field name="name">Daily Attendance Logs Wizard</field>
+            <field name="res_model">daily.attendance.logs.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="attendance_wags.view_daily_attendance_logs_wizard_form"/>
+            <field name="target">new</field>
+        </record>
+
+
+
+        <menuitem id="menu_hr_attendance_root_wags" name="Attendances" web_icon="attendance_wags,static/description/icon.png" sequence="80" groups="base_access_rights.admin_non_technical"/>
+
+        <menuitem id="menu_daily_attendance_logs" name="Daily Attendance Logs" parent="attendance_wags.menu_hr_attendance_root_wags" action="action_daily_attendance_logs" sequence="10" groups="base_access_rights.admin_non_technical"/>
+
+        <menuitem name="Punch Attendance" action="action_raw_attendance" parent="attendance_wags.menu_hr_attendance_root_wags" id="raw_attendance_wags_main_menu" sequence="20" groups="base_access_rights.admin_non_technical"/>
+
+        <menuitem id="menu_shift_attendance_wags" name="Shifts" parent="attendance_wags.menu_hr_attendance_root_wags" action="action_shift_attendance_wags" sequence="30" groups="base_access_rights.admin_non_technical"/>
+
+        <menuitem id="menu_daily_attendance_logs_wizard" name="Create Daily Attendance Logs" parent="attendance_wags.menu_hr_attendance_root_wags" action="action_daily_attendance_logs_wizard" sequence="80" groups="base_access_rights.admin_non_technical"/>
+        
+        <!-- <menuitem id="menu_attendance_configuration" name="Configuration" parent="menu_hr_attendance_root_wags" sequence="100" groups="base_access_rights.admin_non_technical"/>
+
+        <menuitem id="menu_attendance_date_wags" name="Attendance Dates" parent="menu_attendance_configuration" action="action_attendance_date_wags" sequence="10" groups="base_access_rights.admin_non_technical"/> -->
+
+    </data>
+</odoo>

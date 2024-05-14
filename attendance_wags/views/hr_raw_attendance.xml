@@ -1,0 +1,100 @@
+<odoo>
+    <data>
+
+        <record id="view_raw_attendance_tree" model="ir.ui.view">
+            <field name="name">raw.attendance.wags.tree</field>
+            <field name="model">raw.attendance.wags</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Punch Attendance" default_order="create_date desc, id desc">
+                    <field name="employee_id"/>
+                    <field name="user_id"/>
+                    <field name="department_id"/>
+                    <field name="checkin" optional="show"/>
+                    <field name="checkout" optional="show"/>
+                    <field name="requested_checkin" optional="hide"/>
+                    <field name="requested_checkout" optional="hide"/>
+                    <field name="final_checkin" optional="hide"/>
+                    <field name="final_checkout" optional="hide"/>
+                    <field name="state" widget="badge" decoration-muted="state in ('no_change', 'change_request')" decoration-success="state == 'approved'" decoration-danger="state == 'rejected'"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="raw_attendance_search_view" model="ir.ui.view">
+            <field name="name">raw.attendance.wags.search</field>
+            <field name="model">raw.attendance.wags</field>
+            <field name="arch" type="xml">
+                <search string="Punch Attendance">
+                    <field name="employee_id" string="Employee"/>
+                    <field name="department_id" string="Department"/>
+                    <group col="8" colspan="4" expand="0" string="Group By">
+                        <filter string="Employees" name="employee_id" context="{'group_by':'employee_id'}"/>
+                        <filter string="Users" name="user_id" context="{'group_by':'user_id'}"/>
+                        <filter string="Status" name="state" context="{'group_by':'state'}"/>
+                    </group>
+                </search>
+            </field>
+        </record> 
+
+        <record id="view_raw_attendance_form" model="ir.ui.view">
+            <field name="name">raw.attendance.wags.form</field>
+            <field name="model">raw.attendance.wags</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Punch Attendance">
+                    <header>
+                        <button name="action_no_change" string="No Change" type="object" class="oe_highlight" attrs="{'invisible': [('state','!=','change_request')]}"/>
+                        <button name="action_change_request" string="Change Request" type="object" class="oe_highlight" attrs="{'invisible': [('state','!=','no_change')]}" invisible="1"/>
+                        <button name="action_approve" string="Approve" type="object" class="oe_highlight" attrs="{'invisible': [('state','!=','change_request')]}"/>
+                        <button name="action_reject" string="Reject" type="object" class="oe_highlight" attrs="{'invisible': [('state','=','rejected')]}" invisible="1"/>
+                        <field name="state" widget="statusbar" statusbar_visible="no_change,change_request,approved,rejected"/>
+                    </header>
+                    <sheet>
+                        <field name="employee_image" widget="image" filename="employee_image_name" class="oe_avatar m-0" options="{&quot;zoom&quot;: true}"/>
+                        <field name="employee_image_name" invisible="1"/>
+                        <group>
+                            
+                            <group string="Attendance Details">
+                                <field name="employee_id"/>
+                                <field name="user_id"/>
+                                <field name="department_id"/>
+                                <field name="mac_address"/>
+                                <field name="daily_attendance_id" readonly="0" force_save="1"/>
+                            </group>
+                            <group string="Admin Details">
+                                <field name="create_uid"/>
+                                <field name="create_date"/>
+                                <field name="company_id" readonly="1" force_save="1"/> 
+                            </group>
+                            <group string="Checkin Details">
+                                <field name="checkin"/>
+                                <field name="requested_checkin"/>
+                                <field name="final_checkin"/>
+                                <field name="checkin_latitude"/>
+                                <field name="checkin_longitude"/>
+                                <field name="remarks"/>
+                            </group>
+                            <group string="Checkout Details">
+                                <field name="checkout"/>
+                                <field name="requested_checkout"/>
+                                <field name="final_checkout"/>
+                                <field name="checkout_latitude"/>
+                                <field name="checkout_longitude"/>
+                                <field name="manager_remarks"/>
+                            </group>
+                        </group>
+                    </sheet>
+                    <!-- Chatter -->
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" groups="base.group_user"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+
+
+    </data>
+</odoo>
