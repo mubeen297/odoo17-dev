@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+admin_access_cash_transactions_wags,cash.transactions.wags,model_cash_transactions_wags,base_access_rights.admin_non_technical,1,1,1,1
+admin_access_cash_type_wags,cash.type.wags,model_cash_type_wags,base_access_rights.admin_non_technical,1,1,1,1
