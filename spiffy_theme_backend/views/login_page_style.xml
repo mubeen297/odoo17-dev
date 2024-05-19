@@ -23,11 +23,18 @@
                 <div class="login-page-background" t-attf-style="background-color: #{company.login_page_background_color};"></div>
             </t>
         </xpath>
-       
+
+        <xpath expr="//div[hasclass('card-body')]" position="after">
+            <div style="text-align: center;">
+                <h5  style="color:red;">All Rights Reserved To Slate Development PVT Ltd</h5>
+                <br/>
+            </div>
+        </xpath>
+
         <xpath expr="//t[@t-set='body_classname']" position="attributes">
             <attribute name="t-value">'bg-100 backend-login-page background-image'</attribute>
         </xpath>
-        
+
         <xpath expr="//div[hasclass('card-body')]" position="attributes">
             <attribute name="t-attf-class">card-body #{company.login_page_style} #{backend_theme_data['config_vals'].color_pallet if not backend_theme_data['config_vals'].use_custom_colors else ''}</attribute>
         </xpath>
@@ -58,6 +65,9 @@
             <t t-set="login_page_text_color_3_4_style" t-value="company.login_page_text_color if company.login_page_style == 'login_style_3' or company.login_page_style == 'login_style_4' else ''"/>
             <t t-set="login_page_text_color_not_2_style" t-value="company.login_page_text_color if company.login_page_style != 'login_style_2' else ''"/>
         </xpath>
+<!--        <xpath expr="//form[hasclass('oe_login_form')]" position="attributes">-->
+<!--            <attribute name="background-color">#574a4a</attribute>-->
+<!--        </xpath>-->
 
         <!-- LOGIN FORM BUTTONS CHANGES -->
         <xpath expr="//div[contains(@t-attf-class, 'input-group')]//a" position="attributes">
@@ -65,19 +75,28 @@
         </xpath>
 
         <!-- FIELD-LOGIN INPUT CHANGES -->
+        <xpath expr="//div[hasclass('field-login')]" position="before">
+            <div class="text-center">
+                 <h2 style="margin: 0 0 30px; padding: 0; color: red; text-align: center;">Slate   Development</h2>
+            </div>
+        </xpath>
         <xpath expr="//div[hasclass('field-login')]" position="attributes">
-            <attribute name="class" remove="mb-3" add="form-group d-flex align-items-center" separator=" "></attribute>
+            <attribute name="class" remove="mb-3" add="form-group d-flex align-items-center" style="background-color:black" separator=" "></attribute>
         </xpath>
         <xpath expr="//div[hasclass('field-login')]/input" position="before">
-            <i class="login-icon ms-2 fa fa-envelope fa-lg" t-att-style="use_custom_colors and 'color:'+light_primary_bg_color+';'"/>
+            <i class="login-icon ms-2 fa fa-envelope fa-lg" style="color:red;"/>
         </xpath>
+
 
         <!-- FIELD-PASSWORD INPUT CHANGES -->
         <xpath expr="//input[@type='password']/.." position="attributes">
             <attribute name="class" remove="mb-3" add="form-group field-password d-flex align-items-center" separator=" "></attribute>
         </xpath>
+        <xpath expr="//input[@type='password']/.." position="attributes">
+            <attribute name="style">{background-color:black}</attribute>
+        </xpath>
         <xpath expr="//input[@type='password']" position="before">
-            <i class="login-icon ms-2 fa fa-lock fa-lg" t-att-style="use_custom_colors and 'color:'+light_primary_bg_color+';'"></i>
+            <i class="login-icon ms-2 fa fa-lock fa-lg" style="color:red;"></i>
         </xpath>
 
         <!-- LOGIN FORM BUTTONS CHANGES -->
@@ -85,12 +104,13 @@
             <attribute name="t-attf-style">color: #{login_page_text_color_3_4_style};</attribute>
         </xpath>
         <xpath expr="//div[contains(@t-attf-class, 'oe_login_buttons')]//button[hasclass('btn-primary')]" position="attributes">
-            <attribute name="t-att-style">use_custom_colors and 'background-color:'+light_primary_bg_color+'; color:'+light_primary_text_color+';'</attribute>
+            <attribute name="t-att-style">use_custom_colors and 'background-color:red; color:'+light_primary_text_color+';'</attribute>
             <attribute name="class" separator=" " add="border-0"/>
         </xpath>
         <xpath expr="//t[@t-if='debug']//button[hasclass('btn-link')]" position="attributes">
             <attribute name="t-attf-style">color: #{login_page_text_color_3_4_style};</attribute>
         </xpath>
+
     </template>
 
     <template id="auth_signup_btn_inherit" name="Auth Signup Buttons Inherit" inherit_id="auth_signup.signup">
@@ -190,7 +210,7 @@
         <xpath expr="//div[hasclass('field-login')]/input" position="attributes">
             <attribute name="placeholder" add="Email" separator=" "></attribute>
         </xpath>
-      
+
         <!-- RESET FORM BUTTONS CHANGES -->
         <xpath expr="//div[hasclass('oe_login_buttons')]" position="attributes">
             <attribute name="class" separator=" " remove="mt-3"/>

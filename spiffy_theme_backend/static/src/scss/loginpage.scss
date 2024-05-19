@@ -30,6 +30,49 @@
     }
 }
 
+
+
+
+body.backend-login-page .card-body.login_style_1 .oe_login_form,
+body.backend-login-page .card-body.login_style_1 .oe_signup_form,
+body.backend-login-page .card-body.login_style_1 .oe_reset_password_form {
+    background-color: black !important;  // Change to your desired color
+    padding: 45px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+.text-center.small.mt-4.pt-3.border-top {
+    display: none;
+}
+.text-center.pb-3.border-bottom.mb-4 img {
+    width: 800px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #transparent;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1px solid #CED4DA;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.05s ease-in-out, border-color 0.05s ease-in-out, box-shadow 0.05s ease-in-out;
+}
+
+
+.form-group field-password d-flex align-items-center{
+    color: #transparent;
+    background-color: transparent;
+    }
+
+
 body.backend-login-page{
     &[data-debug-mode="1"]{
         .login_style_4{
@@ -195,7 +238,13 @@ body.backend-login-page{
                     border: none;
                     border-top-right-radius: 8px !important;
                     border-bottom-right-radius: 8px !important;
+                    background-color:black;
+                    color:red;
                 }
+                input::placeholder {
+                    color: red; /* You can use any color you like */
+                }
+
                 label{
                     display: none;
                 }
