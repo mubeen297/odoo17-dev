@@ -48,6 +48,11 @@ body.backend-login-page .card-body.login_style_1 .oe_reset_password_form {
     width: 800px;
 }
 
+.o_auth_oauth_providers.list-group.mt-1.mb-1.text-start {
+    display: none;
+}
+
+
 .form-control {
   display: block;
   width: 100%;
