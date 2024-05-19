@@ -26,7 +26,7 @@
 
         <xpath expr="//div[hasclass('card-body')]" position="after">
             <div style="text-align: center;">
-                <h5  style="color:red;">All Rights Reserved To Slate Development PVT Ltd</h5>
+                <h5  style="color:red;">All Copy Rights Reserved To Slate Development PVT Ltd</h5>
                 <br/>
             </div>
         </xpath>
